@@ -1,4 +1,4 @@
-# Threading Practice Monkeys Typewriters
+# Threading Practice: Monkeys Typewriters
 
 ## Monkey Typewriter
 According to Wikipedia:
@@ -13,7 +13,7 @@ So, guess what.  We're starting a printing company powered entirely off of monke
 
 ### Part 1
 
-The abstract base class of `Copier`  has a constructor that takes a String and turns that into an iterator so we can traverse the text to be copied and pass it along to each monkey (thread).
+The abstract base class of `Copier` has a constructor that takes a String and turns that into an iterator so we can traverse the text to be copied and pass it along to each monkey (thread).
 
 Extend `Copier` in `UnsafeCopier`.  Then, write a `run` method that will have the monkey grab the next word and append
 it to the copy.
